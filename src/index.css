@@ -1,13 +1,157 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* .App {
+  height: 700px;
+  padding: 250px;
+}
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+
+.title {
+  font-family: "Lato";
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: none;
+  font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.background {
+  background-image: url(./images/GettyImages-889642362.jpg);
+  max-width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 72px;
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #009fd9;
+  color: white;
+}
+
+.btn {
+  padding: 1em em;
+  font-size: 18px;
+  color: #3f3f3f;
+}
+
+@media only screen and (max-width: 768px) {
+  .background {
+    background-image: url(./images/GettyImages-889642362.jpg);
+    max-width: 100%;
+    height: 360px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-text {
+    margin-top: -150px;
+    margin-bottom: 70px;
+    left: 20%;
+    color: white;
+    text-align: center;
+  }
+
+  .main-title {
+    font-weight: 400;
+    font-size: 42px;
+    padding: 12px 0;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .hero-text {
+    margin-top: -200px;
+    margin-bottom: 120px;
+    color: white;
+  }
 }
