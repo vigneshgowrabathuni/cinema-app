@@ -21,6 +21,7 @@ function MoviesList({ movies, genereName }) {
                   <div className="card-image">
                     <img
                       src={`https://image.tmdb.org/t/p/w185/${movie.poster_path}`}
+                      alt={movie.title}
                     />
                   </div>
                 </div>
